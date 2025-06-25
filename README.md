@@ -168,14 +168,6 @@ python3 manage.py shell # Django shell
 
 This project is licensed under the ISC License.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests
-5. Submit a pull request
-
 ## 📞 Support
 
 For issues and questions, please refer to the project documentation or create an issue in the repository.
