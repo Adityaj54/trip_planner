@@ -1,3 +1,5 @@
+# Loom Video [link](https://www.loom.com/share/109c0391363e476195aaf6d01d730e58?sid=bd026cb9-1ae3-4070-9481-de5a07155b49)
+
 # 🚛 ELD Trip Planner
 
 A full-stack web application that helps property-carrying truck drivers plan their routes with compliance to Hours of Service (HOS) regulations and generates ELD-style log sheets.
@@ -146,6 +148,18 @@ lorry/
 - **Trip**: Core trip information and metadata
 - **RouteSegment**: Individual route segments with type classification
 - **LogSheet**: ELD-style duty status logs with compliance data
+
+## 🚀 Deployment
+
+This application is deployed using serverless platforms:
+
+- **Backend API**: Deployed on [Render](https://render.com) 
+- **Frontend UI**: Deployed on [Vercel](https://vercel.com)
+
+### Important Notes
+- Both services are **serverless** and will go offline during periods of inactivity
+- **Cold start time**: ~1 minute when services wake up from sleep
+- First request after inactivity may experience longer response times
 
 ## 🔧 Development
 
